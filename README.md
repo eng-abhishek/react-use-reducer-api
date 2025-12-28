@@ -22,7 +22,9 @@ Reducer (function)
 
 Syntax
 const [state, dispatch] = useReducer(reducer, initialState);
+
 2️⃣ Reducer Function Structure
+
 function reducer(state, action) {
 switch (action.type) {
 case 'ACTION_NAME':
